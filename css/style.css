@@ -1,0 +1,33 @@
+.container { 
+    margin: 120px auto; 
+}
+
+.header-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 100; /* Ensure the header stays on top of other content */
+    padding: 20px;
+}
+
+.header-container sticky-top {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 100; /* Ensure the header stays on top of other content */
+}
+
+.quote { 
+    background: #FFFBEF;
+    padding: 20px; 
+    border-radius: 12px;
+}
+
+.container-screen { 
+    background: linear-gradient(180deg, rgba(246, 250, 254, 0.00) 0%, #FFFEFA 10.29%);
+}
+
+.percent { 
+    padding-top: 10px;
+    color: #FE9697;
+}
